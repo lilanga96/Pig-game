@@ -43,3 +43,20 @@ rollDice.addEventListener('click', function(){
         player2.classList.toggle('player--active');
        }
 })
+
+holdGame.addEventListener('click', function(){
+
+    document.getElementById(`score--${activePlayer}`).textContent = currentScore;
+})
+
+newGame.addEventListener('click', function(){
+    score0El.textContent = 0;
+    score1El.textContent = 0;
+    function diceHidden(){
+    dice.classList.add('hidden');
+}
+    diceHidden();
+    document.getElementById(`current--${activePlayer}`).textContent = 0;
+     currentScore = 0;
+    
+})
