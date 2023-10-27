@@ -1,1 +1,2 @@
 # Pig-game
+this is a rolling dice game that 2 players can play, the logic is that: player 1 will click on a button to roll a dice, whatever score they get will be loaded on to their total score by clicking on the "hold score" button,but if they roll a 1 then the game will switch to player 2, any player that gets up to a score of 100 wins and the game will be over, however the game can be reset and the players can play from scratch
