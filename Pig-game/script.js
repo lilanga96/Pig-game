@@ -55,7 +55,7 @@ holdGame.addEventListener('click', function(){
         document.getElementById(`current--${activePlayer}`).textContent = 0;
         currentScore = 0;
 
-        if(scores[activePlayer] >= 12){
+        if(scores[activePlayer] >= 100){
             document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
             document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
             playing = false
